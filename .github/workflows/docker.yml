@@ -32,5 +32,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            usuarioDockerHub/imagen:latest
+            artletgon/imagen:newplaneta
             
