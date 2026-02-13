@@ -5,7 +5,8 @@ const app = express();
 const planetas = [
   { id: 1, nombre: 'Mercurio', orden: 1, tipo: 'Rocoso' },
   { id: 2, nombre: 'Venus', orden: 2, tipo: 'Rocoso' },
-  { id: 3, nombre: 'Tierra', orden: 3, tipo: 'Rocoso' }
+  { id: 3, nombre: 'Tierra', orden: 3, tipo: 'Rocoso' },
+  { id: 4, nombre: 'Marte', orden: 4, tipo: 'Rocoso' }
 ];
 
 app.get('/planetas', (req, res) => {
