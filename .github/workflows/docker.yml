@@ -32,5 +32,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            usuarioDockerHub/imagen:latest
-            
+            jeazaprom/imagen:newplaneta
